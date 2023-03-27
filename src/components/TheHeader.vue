@@ -35,6 +35,7 @@ header {
     line-height: 120px;
     display: flex;
     justify-content: space-between;
+    margin: auto;
 }
 
 .logo {

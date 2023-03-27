@@ -1,13 +1,15 @@
 <script>
 import TheHeader from "./components/TheHeader.vue"
-import TheFooter from "./components/TheFooter.vue"
 import AppBlueMenu from "./components/AppBlueMenu.vue"
+import TheFooter from "./components/TheFooter.vue"
+import TheFooterBottom from "./components/TheFooterBottom.vue"
 
 export default {
   components: {
     TheHeader,
     AppBlueMenu,
-    TheFooter
+    TheFooter,
+    TheFooterBottom,
 
   }
 
@@ -28,6 +30,7 @@ export default {
 
   </main>
   <TheFooter></TheFooter>
+  <TheFooterBottom></TheFooterBottom>
 </template>
 
 <style>
@@ -36,6 +39,7 @@ export default {
   margin: 0;
   box-sizing: border-box;
 }
+
 
 .main-up {
   height: 200px;
