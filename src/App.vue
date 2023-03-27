@@ -18,19 +18,24 @@ export default {
 </script>
 
 <template>
-  <TheHeader></TheHeader>
-  <main>
-    <div class="main-up">
-      Content goes here
-    </div>
+  <div class="container">
+
+    <TheHeader></TheHeader>
+    <main>
+      <div class="main-up">
+        Content goes here
+      </div>
 
 
-    <AppBlueMenu></AppBlueMenu>
+      <AppBlueMenu></AppBlueMenu>
 
 
-  </main>
-  <TheFooter></TheFooter>
-  <TheFooterBottom></TheFooterBottom>
+    </main>
+    <TheFooter></TheFooter>
+    <TheFooterBottom></TheFooterBottom>
+
+
+  </div>
 </template>
 
 <style>
@@ -40,6 +45,9 @@ export default {
   box-sizing: border-box;
 }
 
+.container {
+  margin: auto;
+}
 
 .main-up {
   height: 200px;

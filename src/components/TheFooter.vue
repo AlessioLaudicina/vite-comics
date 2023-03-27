@@ -77,6 +77,7 @@ footer {
     display: flex;
     background-image: url('../assets/img/footer-bg.jpg');
     background-size: cover;
+    margin: auto;
 }
 
 .content {

@@ -35,12 +35,13 @@ header {
     line-height: 120px;
     display: flex;
     justify-content: space-between;
-    margin: auto;
+
 }
 
 .logo {
     display: flex;
     align-items: center;
+    margin-left: 30px;
 }
 
 img {
@@ -59,6 +60,7 @@ ul {
 li {
     margin: 0 10px 0 10px;
     display: flex;
+    cursor: pointer;
 }
 
 a {
