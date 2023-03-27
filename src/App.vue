@@ -45,6 +45,10 @@ export default {
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
 .container {
   margin: auto;
 }

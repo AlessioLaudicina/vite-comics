@@ -15,16 +15,16 @@ export default {
 
         <nav>
             <ul>
-                <li> <a>Characters</a> </li>
-                <li> <a>Comics</a> </li>
-                <li> <a>Movies</a> </li>
+                <li> <a>CHARACTERS</a> </li>
+                <li> <a>COMICS</a> </li>
+                <li> <a>MOVIES</a> </li>
                 <li> <a>TV</a> </li>
-                <li> <a>Games</a> </li>
-                <li> <a>Collections</a> </li>
-                <li> <a>Videos</a> </li>
-                <li> <a>Fans</a> </li>
-                <li> <a>News</a> </li>
-                <li> <a>Shop</a> </li>
+                <li> <a>GAMES</a> </li>
+                <li> <a>COLLECTTIONS</a> </li>
+                <li> <a>VIDEOS</a> </li>
+                <li> <a>FANS</a> </li>
+                <li> <a>NEWS</a> </li>
+                <li> <a>SHOP</a> </li>
             </ul>
         </nav>
     </header>

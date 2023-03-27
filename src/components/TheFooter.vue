@@ -11,7 +11,7 @@ export default {
         <div class="content">
             <div class="cols">
                 <div class="links">
-                    <h4>DC Comics</h4>
+                    <h4>DC COMICS</h4>
                     <nav>
                         <ul>
                             <li><a href="#">Characters</a></li>
@@ -25,7 +25,7 @@ export default {
                     </nav>
                 </div>
                 <div class="links">
-                    <h4>Shop</h4>
+                    <h4>SHOP</h4>
                     <nav>
                         <ul>
                             <li><a href="#">Shop DC</a></li>
@@ -56,7 +56,7 @@ export default {
             </div>
             <div class="cols">
                 <div class="links">
-                    <h4>Sites</h4>
+                    <h4>SITES</h4>
                     <nav>
                         <ul>
                             <li><a href="#">DC</a></li>
@@ -77,12 +77,13 @@ footer {
     display: flex;
     background-image: url('../assets/img/footer-bg.jpg');
     background-size: cover;
-    margin: auto;
+
 }
 
 .content {
     display: flex;
     height: 370px;
+    width: 100%;
     background-image: url('../assets/img/dc-logo-bg.png');
     background-repeat: no-repeat;
     background-position: right;
@@ -108,7 +109,7 @@ ul {
 a {
     display: inline-block;
     text-decoration: none;
-    color: whitesmoke;
+    color: gray;
     font-size: .85em;
 }
 </style>
