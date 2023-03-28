@@ -40,6 +40,11 @@ export default {
 
 }
 
+.content {
+    display: flex;
+    justify-content: center;
+}
+
 ul {
     display: flex;
     justify-content: space-around;

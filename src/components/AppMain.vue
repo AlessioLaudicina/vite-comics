@@ -102,4 +102,44 @@ export default {
     </main>
 </template>
 
-<style></style>
+<style>
+main {
+    padding-bottom: 10px;
+    background-color: #2f2f2f;
+    color: white;
+}
+
+h2 {
+    width: 215px;
+    transform: translateY(-50%);
+    margin-left: 6%;
+    text-align: center;
+    color: white;
+    padding: 8px;
+    background-color: #0082f9;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+.jumbotron img {
+    height: 400px;
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+button {
+    margin: 0 auto;
+    display: block;
+    color: white;
+    background-color: #0082f9;
+    padding: 5px;
+    width: 150px;
+    border: none;
+
+}
+</style>

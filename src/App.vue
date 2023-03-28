@@ -23,14 +23,14 @@ export default {
   <div class="container">
 
     <TheHeader></TheHeader>
-    <main>
-      <AppMain></AppMain>
+
+    <AppMain></AppMain>
 
 
-      <AppBlueMenu></AppBlueMenu>
+    <AppBlueMenu></AppBlueMenu>
 
 
-    </main>
+
     <TheFooter></TheFooter>
     <TheFooterBottom></TheFooterBottom>
 
@@ -51,11 +51,5 @@ body {
 
 .container {
   margin: auto;
-}
-
-.main-up {
-  height: 200px;
-  background-color: black;
-  color: white;
 }
 </style>

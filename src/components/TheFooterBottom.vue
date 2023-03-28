@@ -8,7 +8,7 @@ export default {
 
 <template>
     <footer>
-        <div class="content">
+        <div class="content-footer">
             <button>
                 <h3>SIGN-UP NOW!</h3>
             </button>
@@ -16,11 +16,14 @@ export default {
 
                 <h4>FOLLOW US</h4>
 
-                <img src="../assets/img/footer-facebook.png" alt="facebook" />
-                <img src="../assets/img/footer-twitter.png" alt="twitter" />
-                <img src="../assets/img/footer-youtube.png" alt="youtube" />
-                <img src="../assets/img/footer-pinterest.png" alt="pinterest" />
-                <img src="../assets/img/footer-periscope.png" alt="periscope" />
+                <ul class="social">
+                    <li> <img src="../assets/img/footer-facebook.png" alt="facebook" /></li>
+                    <li> <img src="../assets/img/footer-twitter.png" alt="twitter" /></li>
+                    <li> <img src="../assets/img/footer-youtube.png" alt="youtube" /></li>
+                    <li> <img src="../assets/img/footer-pinterest.png" alt="pinterest" /> </li>
+                    <li> <img src="../assets/img/footer-periscope.png" alt="periscope" /> </li>
+
+                </ul>
             </div>
         </div>
     </footer>
@@ -33,10 +36,11 @@ footer {
     margin: 0 auto;
 }
 
-.content {
+.content-footer {
     display: flex;
     justify-content: space-between;
     height: 100%;
+    width: 100%;
 }
 
 button {
@@ -59,7 +63,6 @@ button:hover {
 
 h4 {
     margin-left: 40px;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -67,12 +70,28 @@ h4 {
 
 .follow-us {
     display: flex;
+    height: 100%;
+}
+
+.social {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-right: 85px;
+}
+
+.social li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 70px;
 }
 
 img {
 
     cursor: pointer;
-    transform: scale(0.3);
+    transform: scale(0.2);
+    padding: 0;
+    height: 100px;
 }
 
 .follow-us>h4 {
