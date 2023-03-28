@@ -1,6 +1,6 @@
 <script>
 export default {
-    name: "TheFooter"
+    name: "TheFooter",
 
 }
 
@@ -111,5 +111,9 @@ a {
     text-decoration: none;
     color: gray;
     font-size: .85em;
+}
+
+a:hover {
+    color: white;
 }
 </style>

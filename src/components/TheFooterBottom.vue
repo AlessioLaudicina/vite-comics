@@ -59,7 +59,7 @@ button:hover {
 
 h4 {
     margin-left: 40px;
-    padding: 13px;
+
     display: flex;
     justify-content: center;
     align-items: center;

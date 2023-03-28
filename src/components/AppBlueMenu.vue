@@ -1,7 +1,6 @@
 <script>
 export default {
-    name: "AppBlue"
-
+    name: "AppBlue",
 }
 
 </script>
