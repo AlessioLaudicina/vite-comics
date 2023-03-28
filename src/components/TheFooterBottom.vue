@@ -34,6 +34,7 @@ footer {
     height: 110px;
     background-color: #2f2f2f;
     margin: 0 auto;
+
 }
 
 .content-footer {
@@ -48,6 +49,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
     height: 50px;
     width: 150px;
     margin-top: 30px;
@@ -91,7 +93,7 @@ img {
     cursor: pointer;
     transform: scale(0.2);
     padding: 0;
-    height: 100px;
+    height: 100%;
 }
 
 .follow-us>h4 {

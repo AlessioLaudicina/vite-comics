@@ -45,7 +45,8 @@ header {
 }
 
 img {
-    height: 90px;
+    height: 70px;
+    width: 75px;
     cursor: pointer;
 }
 
@@ -67,5 +68,9 @@ a {
     text-decoration: none;
     color: black;
 
+}
+
+a:hover {
+    color: #0082f9;
 }
 </style>

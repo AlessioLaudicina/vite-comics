@@ -98,14 +98,14 @@ export default {
             <ComicCard v-for="(card, index) in cards" :key="index" :card="card" />
 
         </div>
-        <button>Load more</button>
+        <button>LOAD MORE</button>
     </main>
 </template>
 
 <style>
 main {
-    padding-bottom: 10px;
-    background-color: #2f2f2f;
+    padding-bottom: 30px;
+    background-color: #1d1c1c;
     color: white;
 }
 
@@ -121,25 +121,31 @@ h2 {
     cursor: pointer;
 }
 
-.jumbotron img {
+.jumbotron {
     height: 400px;
+}
+
+.jumbotron img {
+    height: 100%;
     width: 100%;
+
 }
 
 .content {
     display: flex;
     flex-wrap: wrap;
-
+    margin: 0 50px;
 }
 
 button {
-    margin: 0 auto;
+    margin: 5px auto;
     display: block;
     color: white;
+    font-weight: bold;
     background-color: #0082f9;
+    cursor: pointer;
     padding: 5px;
     width: 150px;
     border: none;
-
 }
 </style>

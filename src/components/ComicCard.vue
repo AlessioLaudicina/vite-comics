@@ -21,13 +21,13 @@ export default {
     position: relative;
     width: calc(100% / 6);
     padding: 20px;
-    cursor: pointer;
+
 }
 
 img {
     width: 150px;
     height: 150px;
-    transition: 0.5s all;
+    cursor: pointer;
 }
 
 h4 {

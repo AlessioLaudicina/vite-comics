@@ -58,7 +58,7 @@ li {
 }
 
 img {
-    transform: scale(0.5);
+    transform: scale(0.4);
 }
 
 a {
